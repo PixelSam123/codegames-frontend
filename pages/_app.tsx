@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <nav>
+      <nav className="container">
         <ul>
           <li><Link href="/">codegames</Link></li>
         </ul>
