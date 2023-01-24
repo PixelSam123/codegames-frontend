@@ -8,10 +8,15 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <nav className="container">
         <ul>
-          <li><Link href="/">codegames</Link></li>
+          <li><strong><Link href="/">codegames</Link></strong></li>
+        </ul>
+        <ul>
+          <li><Link href="/signup">Sign Up</Link></li>
         </ul>
       </nav>
-      <Component {...pageProps} />
+      <main className="container">
+        <Component {...pageProps} />
+      </main>
     </>
   )
 }
