@@ -11,7 +11,8 @@ export default function App({ Component, pageProps }: AppProps) {
           <li><strong><Link href="/">codegames</Link></strong></li>
         </ul>
         <ul>
-          <li><Link href="/signup">Sign Up</Link></li>
+          <li><Link href="/battle">JSbattle</Link></li>
+          <li><Link href="/signup" role="button">Sign Up</Link></li>
         </ul>
       </nav>
       <main className="container">
